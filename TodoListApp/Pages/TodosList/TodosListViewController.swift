@@ -21,6 +21,7 @@ class TodosListViewController: TodosListViewControllerUI, UISearchBarDelegate {
         
         searchBar.delegate = self
         searchBar.returnKeyType = .done
+        
         addKeyboardToolbar(to: searchBar)
         setupBindings()
         fetchData()
